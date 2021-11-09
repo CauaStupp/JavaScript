@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500&display=swap');
+
+* {
+    margin-top: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, rgb(50, 50, 206), rgb(82, 123, 184));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+
+    padding-top: 15px;
+}
+
+section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 6px 4px 8px 0px rgba(0, 0, 0, 0.178);
+
+    padding: 25px;
+    margin: auto;
+    width: 500px;
+}
+
+input#txtano {
+    border-style: solid;
+    text-decoration: none;
+    text-decoration-line: none;
+     
+    padding: 2px;
+}
+
+div#res {
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: 500;
+
+    padding-bottom: 5px;
+}
+
+input#botao {
+    background: linear-gradient(to right, rgba(50, 50, 206, 0.404), rgba(82, 123, 184, 0.404));
+    border-radius: 5px;
+    border: transparent;
+
+    padding: 5px;
+    margin-left: 8px;
+    transition: 0.8s;
+}
+
+input#botao:hover {
+    background: linear-gradient(to left, rgba(61, 61, 209, 0.664), rgba(103, 140, 196, 0.603));
+    transition: 0.8s;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+
+    padding-top: 10px;
+}

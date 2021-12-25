@@ -1,0 +1,1 @@
+let pessoa = {nome: 'Kelvin', sexo: 'M', peso: (p)}
